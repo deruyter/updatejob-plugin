@@ -1,0 +1,8 @@
++--------------------------------------------------+
++	            README                         +
++--------------------------------------------------+
+@author  : Thomas Deruyter <tderuyte@gmail.com>
+@date	 : 24/01/2011
+@version : 1.0
+
+This plugin allow to update a job through command line without restarting hudson server.
