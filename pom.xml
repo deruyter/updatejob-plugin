@@ -12,6 +12,12 @@
   <name>Hudson Update Job plugin</name>
   <version>1.0</version>
   <url>http://wiki.hudson-ci.org/display/HUDSON/UpdateJob+Plugin</url>
+  <licenses>
+    <license>
+      <name>MIT license</name>
+      <comments>All source code is under the MIT license.</comments>
+    </license>
+  </licenses>
   <issueManagement>
     <system>JIRA</system>
     <url>http://issues.hudson-ci.org</url>
@@ -27,5 +33,6 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+    <description>Allow a user to update an existing job via hudson CLI:
+java -jar hudson-cli.jar update-job ...</description>
 </project>
